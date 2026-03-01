@@ -1,0 +1,44 @@
+[build-system]
+requires      = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name        = "uploadwhen"
+version     = "1.0.0"
+description = "Find out exactly when a YouTube video was uploaded — date & time in IST."
+readme      = "README.md"
+license     = {text = "MIT"}
+requires-python = ">=3.9"
+authors     = [{name = "SoubhagyaSwain"}]
+keywords    = ["youtube", "upload-date", "cli", "yt-dlp", "upload-time"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Multimedia :: Video",
+    "Topic :: Utilities",
+]
+dependencies = [
+    "yt-dlp>=2024.0.0",
+    "rich>=13.0.0",
+    "tzdata; sys_platform == 'win32'",
+]
+
+[project.urls]
+Homepage   = "https://github.com/soubhagya2003jan/Uploadwhen"
+Repository = "https://github.com/soubhagya2003jan/Uploadwhen"
+
+[project.scripts]
+uploadwhen = "uploadwhen.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["uploadwhen*"]
