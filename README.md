@@ -2,7 +2,7 @@
 
 > Find out **exactly** when a YouTube video was uploaded — date & time across multiple time zones.
 
-A Python CLI tool that extracts upload timestamps from YouTube videos, converts them to **IST, US/ET, AU/AEST, JP/JST, and UTC** (24-hour format). Also computes **upload consistency analytics** for any channel.
+A Python CLI tool that extracts exact upload timestamps from YouTube videos, converts them to **IST, US/ET, AU/AEST, JP/JST, and UTC** (24-hour format). Also computes **upload consistency analytics** for any channel.
 
 Built with [yt-dlp](https://github.com/yt-dlp/yt-dlp) and [rich](https://github.com/Textualize/rich).
 
