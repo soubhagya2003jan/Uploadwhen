@@ -9,7 +9,7 @@ Built with [yt-dlp](https://github.com/yt-dlp/yt-dlp) and [rich](https://github.
 ---
 
 <div align="center">
-  <h3>📸 Screenshots</h3>
+  <h3> Screenshots</h3>
   <table border="1">
     <tr>
       <td align="center">
