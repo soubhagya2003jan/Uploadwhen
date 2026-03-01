@@ -127,6 +127,14 @@ def _export_csv(records: list[dict], path: Path) -> None:
 # Entry point —————————————————————————————————————————————————————————————
 
 def main(argv: list[str] | None = None) -> None:
+    try:
+        _run(argv)
+    except KeyboardInterrupt:
+        console.print("\n  [dim]Interrupted.[/dim]")
+        sys.exit(0)
+
+
+def _run(argv: list[str] | None = None) -> None:
     parser = _build_parser()
     args = parser.parse_args(argv)
 
