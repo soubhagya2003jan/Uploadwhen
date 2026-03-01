@@ -8,6 +8,35 @@ Built with [yt-dlp](https://github.com/yt-dlp/yt-dlp) and [rich](https://github.
 
 ---
 
+<div align="center">
+  <h3>📸 Screenshots</h3>
+  <table border="1">
+    <tr>
+      <td align="center">
+        <img src="assets/Usage.png" width="100%" alt="Usage">
+        <br>
+        <i>Quick Usage</i>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="assets/Analytics.png" width="100%" alt="Analytics">
+        <br>
+        <i>Consistency Analytics</i>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="assets/TimeInfo.png" width="100%" alt="Time Info">
+        <br>
+        <i>Multi-timezone info</i>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
 ## Installation
 
 ```bash
