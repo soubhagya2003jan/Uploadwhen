@@ -18,8 +18,16 @@ venv/
 Thumbs.db
 .DS_Store
 
-# API keys
+# Sensitive / secrets
 key.txt
+*.key
+*.pem
+*.env
+.env
+.env.*
+*.token
+secrets.*
+credentials.*
 
 # Exports
 uploadwhen_results.json
